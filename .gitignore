@@ -1,0 +1,10 @@
+pycache/
+*.pyc
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+*.fasta.tmp
+*.log
