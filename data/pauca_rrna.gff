@@ -1,0 +1,7 @@
+##gff-version 3
+NZ_CM132766.1	barrnap:0.9	rRNA	65896	67436	0	+	.	Name=16S_rRNA;product=16S ribosomal RNA
+NZ_CM132766.1	barrnap:0.9	rRNA	67904	70782	0	+	.	Name=23S_rRNA;product=23S ribosomal RNA
+NZ_CM132766.1	barrnap:0.9	rRNA	70923	71031	8.2e-13	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+NZ_CM132766.1	barrnap:0.9	rRNA	169919	171459	0	+	.	Name=16S_rRNA;product=16S ribosomal RNA
+NZ_CM132766.1	barrnap:0.9	rRNA	171927	174805	0	+	.	Name=23S_rRNA;product=23S ribosomal RNA
+NZ_CM132766.1	barrnap:0.9	rRNA	174946	175054	8.2e-13	+	.	Name=5S_rRNA;product=5S ribosomal RNA
