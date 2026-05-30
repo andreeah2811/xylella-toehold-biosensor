@@ -26,3 +26,35 @@ Pardee, K. et al. (2016) Rapid, low-cost detection of Zika virus using programma
 Minsavage, G.V. et al. (1994) Development of a polymerase chain reaction protocol for detection of Xylella fastidiosa in plant tissue. Phytopathology, 84(5), pp. 456-461.
 Author
 Andreea | BSc Biological Sciences, Middlesex University London
+
+## View notebooks
+
+GitHub sometimes struggles to render Jupyter notebooks directly. Use the 
+links below for reliable rendering via nbviewer.
+
+- [Notebook 01: Sequence retrieval and conservation analysis](https://nbviewer.org/github/andreeah2811/xylella-toehold-biosensor/blob/main/notebooks/01_sequence_retrieval.ipynb)
+- [Notebook 02: Structure prediction and target site selection](https://nbviewer.org/github/andreeah2811/xylella-toehold-biosensor/blob/main/notebooks/02_structure_prediction.ipynb)
+- [Notebook 03: Toehold switch design and thermodynamic evaluation](https://nbviewer.org/github/andreeah2811/xylella-toehold-biosensor/blob/main/notebooks/03_switch_design.ipynb)
+
+## Results summary
+
+Conservation analysis across 117 Xylella fastidiosa strains identified
+eight conserved regions in the 16S rRNA gene, of which six were suitable
+for toehold switch design. Cross-strain accessibility verification confirmed
+three primary candidate target sites in region R4, all showing consistent
+accessibility above 0.5 unpaired probability across pauca, multiplex, and
+ATCC 35879 reference strains.
+
+Three toehold switch designs were produced and evaluated. The primary
+recommended design targets R4 position 236-266.
+
+Trigger RNA:  5'-GUGAAAUGCGUAGAGAUCAGGAGGAACAUC-3'
+Switch RNA:   5'-CCUGAUCUCUACGCAUUUCACGAUGUUCCUAAAAGAAGGAGATAAAAUGCUACAAGGAAACCCCTCAAGACCCGUUUGGC-3'
+dG RBS-linker: -2.70 kcal/mol
+dG switching:  -37.00 kcal/mol
+Specificity margin vs Arabidopsis thaliana 18S: +18.80 kcal/mol
+Specificity margin vs Xanthomonas campestris 16S: +12.00 kcal/mol
+
+All three designs passed specificity screening against plant host RNA
+and related bacterial RNA at margins substantially above the 5 kcal/mol
+threshold.
